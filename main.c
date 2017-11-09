@@ -10,7 +10,7 @@ int main()
     // Le programme ne fait que lire les 100 premiers carcteres
 
     printf("%d\n", sizeof(char));
-    char* chemin_du_fichier = "bach_846.mid";
+    char* chemin_du_fichier = "fichier_MIDI_test.mid";
     FILE *fichier = fopen(chemin_du_fichier, "r");
     for (int i=0;i<100;i++){
         char *x = malloc(sizeof(char));
