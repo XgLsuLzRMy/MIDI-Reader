@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508949841 source:d:\documents\cours insa 4a\projet math\midi-reader\midi-reader\main.c
+	<stdio.h>
+	<stdlib.h>
+
