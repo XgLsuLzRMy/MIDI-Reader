@@ -1,22 +1,107 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/*
+* ==========================================================================================================================================
+*   ATTENTION A METTRE LA NORME C99 DANS CODEBLOCKS ( Parametres > Compilateur > cocher "Have gcc follow the 1999 ISO C language standard" )
+* ==========================================================================================================================================
+*/
+
+
+
+
+
+unsigned int convertTabToHex(char* t, int taille){
+//Ne marche pas...
+// Convertit un tableau t = {h1, h2, h3, ... , h(taille-1)}
+// En un nombre hexa res = h1h2h3...h(taille-1)
+    unsigned int res = t[taille-1];
+    for (int i=2;i<=taille;i++){
+        res = (t[taille-i]<<(8*(i-1))) | res;
+    }
+    return res;
+}
+
 int main()
 {
+
+
     /*
-    *   ATTENTION A METTRE LA NORME C99 DANS CODEBLOCKS ( Parametres > Compilateur > cocher "Have gcc follow the 1999 ISO C language standard" )
+    *   OUVERTURE DU FICHIER
+    */
+    printf("Ouverture du fichier... ");
+    char* chemin_du_fichier = "fichier_MIDI_test.mid";
+    //char* chemin_du_fichier = "faux_MIDI.mid";
+    FILE *fichier = fopen(chemin_du_fichier, "r");
+    if (fichier == NULL){
+        printf("echec\n");
+        return -1;
+    }
+    printf("succes\n");
+
+    /*
+    *   LECTURE DE L'ENTETE
+    */
+    printf("\n===Analyse de l\'en-tete===\n");
+    // On lit le fichier caractere ASCII par caractere ASCII
+    // Un char (charactere) en C fait 8 bits = 1 octet
+    // Un char est donc représenté par 2 nombres hexadécimaux
+
+
+    // On verifie que le fichier commence bien par MThd
+    printf("\nVerification du fichier (MThd)...\n");
+    char MThd[4] = {0x4D,0x54,0x68,0x64};
+    char MThdVerif = 1; //booleen valant 0 si le fichier n'est pas un fichier MIDI sinon il vaut 1
+
+    char *x = malloc(sizeof(char));
+    for (int i=0;i<4;i++){
+        *x = fgetc(fichier);
+        printf("%4x ", *x);
+        // On compare les octets lus avec les octets composants MThd
+        if ((*x)!=MThd[i]){
+            MThdVerif = 0;
+            printf("Le fichier n\'est pas un fichier MIDI...");
+            return 1;
+        }
+    }
+
+    if (MThdVerif){
+        printf("\nLe fichier est un fichier MIDI !\n\n");
+    }
+
+    // Lecture du nombre d'octets pris par les données de l'en-tete
+    unsigned int tailleDonneesEntete = 0x0;
+    //char* tmp = malloc(4*sizeof(char));
+    for (int i=0;i<4;i++){
+        *x = fgetc(fichier);
+        printf("%4x ", *x);
+        //tmp[i] = *x;
+        // On recupere la valeur en convertissant les caracteres en 1 seul nombre hexa
+        tailleDonneesEntete = tailleDonneesEntete + ((*x)<<(8*(4-(i+1))));
+    }
+    //tailleDonneesEntete = convertTabToHex(tmp, 4);
+    printf("\ntaille donnes entete = %d\n", tailleDonneesEntete);
+
+    // Recuperation du type de fichier MIDI
+
+
+    // Recuperation du nombre de pistes
+
+
+    // Recuperation de la division
+
+
+    /*
+    *   LECTURE DU CORPS
     */
 
-    // Le programme ne fait que lire les 100 premiers carcteres
 
-    printf("%d\n", sizeof(char));
-    char* chemin_du_fichier = "fichier_MIDI_test.mid";
-    FILE *fichier = fopen(chemin_du_fichier, "r");
-    for (int i=0;i<100;i++){
-        char *x = malloc(sizeof(char));
-        x = fgetc(fichier);
-        printf("%c", x);
-    }
+
+    /*
+    * FERMETURE DU FICHIER
+    */
+
     fclose(fichier);
     return 0;
 }
