@@ -13,20 +13,18 @@
 
 
 unsigned int convertTabToHex(char* t, int taille){
-//Ne marche pas...
 // Convertit un tableau t = {h1, h2, h3, ... , h(taille-1)}
 // En un nombre hexa res = h1h2h3...h(taille-1)
+// ex : t = {E0 , F2} taille = 2 --> convertTabhex(t, taille) = E0F2
     unsigned int res = t[taille-1];
     for (int i=2;i<=taille;i++){
-        res = (t[taille-i]<<(8*(i-1))) | res;
+        res = (t[taille-i]<<(8*(i-1))) + res;
     }
     return res;
 }
 
 int main()
 {
-
-
     /*
     *   OUVERTURE DU FICHIER
     */
@@ -86,39 +84,61 @@ int main()
         printf("\nLa taille des donnees de l\'entete est differente de 6. Il y a un probleme avec le fichier, on quitte\n");
         return 2;
     }
-    unsigned int format = 0x0;
-    unsigned int nbPistes = 0x0;
-    unsigned int division = 0x0;
+    unsigned int format1 = 0x0;
+    unsigned int format2 = 0x0;
+    int nbPistes = 0;
+    char division1 = 0x0;
+    char division2 = 0x0;
+    // division = [division1 division2]
     for (int i=0;i<tailleDonneesEntete;i++){
         *x = fgetc(fichier);
+        printf("%x ", *x);
         // Recuperation du type de fichier MIDI
         if (i==0){
-            format = format + ((*x) << 8);
+            format1 =  *x;
+            if (format1 != 0x0){
+                printf("\nFormat MIDI inconnu. On quitte.\n");
+                return 3;
+            }
         }else if(i==1){
-            format = format + (*x);
+            format2 = (*x);
+            if (format2 > 2){
+                printf("\nFormat MIDI inconnu. On quitte\n");
+                return 3;
+            }
         }
         // Recuperation du nombre de pistes
         else if(i==2){
-            nbPistes = nbPistes + ((*x) << 8);
+            nbPistes = nbPistes + ((*x)*16);
         }else if(i==3){
             nbPistes = nbPistes + (*x);
         }
         // Recuperation de la division
         else if(i==4){
-            division = division + ((*x) << 8);
+            division1 = *x;
+            //printf("\ndivision1 = %x\n", division1);
         }else if(i==5){
-            division = division + (*x);
+            division2 = *x;
+            //printf("\ndivision2 = %x\n", division2);
+        }
+
+        else{
+            printf("\n!!! Pb : taille>6 !!!\n");
         }
     }
 
-    char MSBdivision = division & (1u << 2);
+    char MSBdivision = division1 & (1u << 7);
 
-    printf("\nformat = %d\n", format);
-    printf("\nombre de pistes = %d\n", nbPistes);
-    printf("\ndivision = %d\n", division);
+    printf("\nformat = %x%x\n", format1, format2);
+    printf("\nNombre de pistes = %d\n", nbPistes);
+    printf("\ndivision = %x%x\n", division1, division2);
     printf("\n15eme bit de division = %d\n", MSBdivision);
 
 
+
+    if (MSBdivision){
+
+    }
 
 
     /*
