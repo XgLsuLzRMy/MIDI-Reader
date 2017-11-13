@@ -82,14 +82,43 @@ int main()
     }
     //tailleDonneesEntete = convertTabToHex(tmp, 4);
     printf("\ntaille donnes entete = %d\n", tailleDonneesEntete);
+    if (tailleDonneesEntete != 6){
+        printf("\nLa taille des donnees de l\'entete est differente de 6. Il y a un probleme avec le fichier, on quitte\n");
+        return 2;
+    }
+    unsigned int format = 0x0;
+    unsigned int nbPistes = 0x0;
+    unsigned int division = 0x0;
+    for (int i=0;i<tailleDonneesEntete;i++){
+        *x = fgetc(fichier);
+        // Recuperation du type de fichier MIDI
+        if (i==0){
+            format = format + ((*x) << 8);
+        }else if(i==1){
+            format = format + (*x);
+        }
+        // Recuperation du nombre de pistes
+        else if(i==2){
+            nbPistes = nbPistes + ((*x) << 8);
+        }else if(i==3){
+            nbPistes = nbPistes + (*x);
+        }
+        // Recuperation de la division
+        else if(i==4){
+            division = division + ((*x) << 8);
+        }else if(i==5){
+            division = division + (*x);
+        }
+    }
 
-    // Recuperation du type de fichier MIDI
+    char MSBdivision = division & (1u << 2);
+
+    printf("\nformat = %d\n", format);
+    printf("\nombre de pistes = %d\n", nbPistes);
+    printf("\ndivision = %d\n", division);
+    printf("\n15eme bit de division = %d\n", MSBdivision);
 
 
-    // Recuperation du nombre de pistes
-
-
-    // Recuperation de la division
 
 
     /*
