@@ -69,7 +69,7 @@ int main()
     }
 
     // Lecture du nombre d'octets pris par les données de l'en-tete
-    unsigned int tailleDonneesEntete = 0x0;
+    unsigned int tailleDonneesEntete = 0;
     //char* tmp = malloc(4*sizeof(char));
     for (int i=0;i<4;i++){
         *x = fgetc(fichier);
@@ -84,12 +84,13 @@ int main()
         printf("\nLa taille des donnees de l\'entete est differente de 6. Il y a un probleme avec le fichier, on quitte\n");
         return 2;
     }
-    unsigned int format1 = 0x0;
-    unsigned int format2 = 0x0;
+    unsigned int format1 = 0;
+    unsigned int format2 = 0;
     int nbPistes = 0;
     char division1 = 0x0;
     char division2 = 0x0;
     // division = [division1 division2]
+    // on lit les données
     for (int i=0;i<tailleDonneesEntete;i++){
         *x = fgetc(fichier);
         printf("%x ", *x);
@@ -131,21 +132,34 @@ int main()
 
     printf("\nformat = %x%x\n", format1, format2);
     printf("\nNombre de pistes = %d\n", nbPistes);
-    printf("\ndivision = %x%x\n", division1, division2);
+    printf("\ndivision = %x %x\n", division1, division2);
     printf("\n15eme bit de division = %d\n", MSBdivision);
 
-
-
     if (MSBdivision){
-
+        printf("\nDivision dans le cas MSB=1\n");
+        // On place le 15eme bit (MSBdivision) à 0
+        unsigned int mask = 0x10F447; // 0111 1111 --> le MSB est a 0 dans le mask donc il sera mis à 0 dans le nombre final
+        division1 = division1 & mask;
+        printf("\ndivision1 = %x\n", division1);
+        /*
+        * A continuer
+        */
+    }else{
+        printf("\nDivision dans le cas MSB=0\n");
+        int division = division2 + (division1 << 8);
+        printf("\ndivision = %d + %d = %d\n", division2, division1<<8, division);
     }
-
 
     /*
     *   LECTURE DU CORPS
     */
 
-
+    printf("\n");
+    *x = fgetc(fichier);
+    while ((*x) != EOF) {
+        printf("%x ", *x);
+        *x = fgetc(fichier);
+    }
 
     /*
     * FERMETURE DU FICHIER
