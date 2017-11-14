@@ -49,15 +49,15 @@ int main()
 
     // On verifie que le fichier commence bien par MThd
     printf("\nVerification du fichier (MThd)...\n");
-    char MThd[4] = {0x4D,0x54,0x68,0x64};
-    char MThdVerif = 1; //booleen valant 0 si le fichier n'est pas un fichier MIDI sinon il vaut 1
+    unsigned char MThd[4] = {0x4D,0x54,0x68,0x64};
+    unsigned char MThdVerif = 1; //booleen valant 0 si le fichier n'est pas un fichier MIDI sinon il vaut 1
 
-    char *x = malloc(sizeof(char));
+    int x = 0;
     for (int i=0;i<4;i++){
-        *x = fgetc(fichier);
-        printf("%4x ", *x);
+        x = fgetc(fichier);
+        printf("%4x ", x);
         // On compare les octets lus avec les octets composants MThd
-        if ((*x)!=MThd[i]){
+        if ((x)!=MThd[i]){
             MThdVerif = 0;
             printf("Le fichier n\'est pas un fichier MIDI...");
             return 1;
@@ -72,11 +72,11 @@ int main()
     unsigned int tailleDonneesEntete = 0;
     //char* tmp = malloc(4*sizeof(char));
     for (int i=0;i<4;i++){
-        *x = fgetc(fichier);
-        printf("%4x ", *x);
-        //tmp[i] = *x;
+        x = fgetc(fichier);
+        printf("%4x ", x);
+        //tmp[i] = x;
         // On recupere la valeur en convertissant les caracteres en 1 seul nombre hexa
-        tailleDonneesEntete = tailleDonneesEntete + ((*x)<<(8*(4-(i+1))));
+        tailleDonneesEntete = tailleDonneesEntete + ((x)<<(8*(4-(i+1))));
     }
     //tailleDonneesEntete = convertTabToHex(tmp, 4);
     printf("\ntaille donnes entete = %d\n", tailleDonneesEntete);
@@ -87,22 +87,22 @@ int main()
     unsigned int format1 = 0;
     unsigned int format2 = 0;
     int nbPistes = 0;
-    char division1 = 0x0;
-    char division2 = 0x0;
+    unsigned char division1 = 0x0;
+    unsigned char division2 = 0x0;
     // division = [division1 division2]
     // on lit les données
     for (int i=0;i<tailleDonneesEntete;i++){
-        *x = fgetc(fichier);
-        printf("%x ", *x);
+        x = fgetc(fichier);
+        printf("%x ", x);
         // Recuperation du type de fichier MIDI
         if (i==0){
-            format1 =  *x;
+            format1 =  x;
             if (format1 != 0x0){
                 printf("\nFormat MIDI inconnu. On quitte.\n");
                 return 3;
             }
         }else if(i==1){
-            format2 = (*x);
+            format2 = (x);
             if (format2 > 2){
                 printf("\nFormat MIDI inconnu. On quitte\n");
                 return 3;
@@ -110,16 +110,16 @@ int main()
         }
         // Recuperation du nombre de pistes
         else if(i==2){
-            nbPistes = nbPistes + ((*x)*16);
+            nbPistes = nbPistes + ((x)*16);
         }else if(i==3){
-            nbPistes = nbPistes + (*x);
+            nbPistes = nbPistes + (x);
         }
         // Recuperation de la division
         else if(i==4){
-            division1 = *x;
+            division1 = x;
             //printf("\ndivision1 = %x\n", division1);
         }else if(i==5){
-            division2 = *x;
+            division2 = x;
             //printf("\ndivision2 = %x\n", division2);
         }
 
@@ -128,7 +128,7 @@ int main()
         }
     }
 
-    char MSBdivision = division1 & (1u << 7);
+    unsigned char MSBdivision = division1 & (1u << 7);
 
     printf("\nformat = %x%x\n", format1, format2);
     printf("\nNombre de pistes = %d\n", nbPistes);
@@ -140,14 +140,12 @@ int main()
         // On place le 15eme bit (MSBdivision) à 0
         unsigned int mask = 0x10F447; // 0111 1111 --> le MSB est a 0 dans le mask donc il sera mis à 0 dans le nombre final
         division1 = division1 & mask;
-        printf("\ndivision1 = %x\n", division1);
-        /*
-        * A continuer
-        */
+        // division1 est le nombre d'images par secondes
+        // division2 est le nombre de delta-time par image
     }else{
         printf("\nDivision dans le cas MSB=0\n");
-        int division = division2 + (division1 << 8);
-        printf("\ndivision = %d + %d = %d\n", division2, division1<<8, division);
+        unsigned int division = division2 + (division1 << 8);
+        printf("\ndivision = %d + %d = %d delta-time\n", division2, division1<<8, division);
     }
 
     /*
@@ -155,11 +153,15 @@ int main()
     */
 
     printf("\n");
-    *x = fgetc(fichier);
-    while ((*x) != EOF) {
-        printf("%x ", *x);
-        *x = fgetc(fichier);
+    x = fgetc(fichier);
+    printf("%x ", x);
+    int i = 0;
+    while ((x) != EOF) {
+
+        x = fgetc(fichier);
+        printf("%x ", x);
     }
+
 
     /*
     * FERMETURE DU FICHIER
