@@ -145,21 +145,37 @@ int main()
     }else{
         printf("\nDivision dans le cas MSB=0\n");
         unsigned int division = division2 + (division1 << 8);
-        printf("\ndivision = %d + %d = %d delta-time\n", division2, division1<<8, division);
+        printf("\ndivision = %d + %d = %d delta-time\n\n", division2, division1<<8, division);
     }
 
     /*
     *   LECTURE DU CORPS
     */
 
-    printf("\n");
-    x = fgetc(fichier);
-    printf("%x ", x);
-    int i = 0;
-    while ((x) != EOF) {
+    // vaut 0 si on est dans une piste
+    // vaut 1 si on n'est pas dans une piste et qu'on attend de voir 'MTrk'
+    // vaut l'indice+1 du tableau MTrk sinon. Par exemple, si on attend le début de piste, on attend le caractere 'M'
+    // donc debutDePisteAttendu = 1 car MTrk[1 - 1] = MTrk[0] = 'M'
+    // si on trouve ce 'M' dans le fichier, alors debutDePisteAttendu augmente de 1 car on attend maintenant un 'T'
+    // et MTrk[2 - 1] = MTrk[1] = 'T'
+    char debutDePisteAttendu = 1;
+    char MTrk[4] = {0x4D, 0x54, 0x72, 0x6B};
+    int nbPisteTrouvee = 0;
 
-        x = fgetc(fichier);
-        printf("%x ", x);
+    // Lecture de la totalité du fichier caractere par caractere
+    while ((x = fgetc(fichier)) != EOF) {
+        //printf("%x ", x);
+        if (debutDePisteAttendu){
+            if ((debutDePisteAttendu<4) && (x == MTrk[debutDePisteAttendu-1])){
+                debutDePisteAttendu++;
+            }else if(debutDePisteAttendu==4){
+                nbPisteTrouvee++;
+                printf("\nPiste trouvee (%d/%d)!!\n", nbPisteTrouvee, nbPistes);
+                debutDePisteAttendu = 0;
+            }else{
+                debutDePisteAttendu = 1;
+            }
+        }
     }
 
 
