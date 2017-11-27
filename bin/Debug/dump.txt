@@ -1,0 +1,13950 @@
+Ouverture du fichier... succes
+
+===Analyse de l'en-tete===
+
+Verification du fichier (MThd)...
+  4d   54   68   64 
+Le fichier est un fichier MIDI !
+
+   0    0    0    6 
+taille donnes entete = 6
+0 1 0 b 1 e0 
+format = 01
+
+Nombre de pistes = 11
+
+division = 1 e0
+
+15eme bit de division = 0
+
+Division dans le cas MSB=0
+
+division = 224 + 256 = 480 delta-time
+
+
+Piste trouvee (1/11)!!
+
+Taille piste = 3065
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 70
+
+Nom de la piste 1 : 
+Das wohltemperierte Klavier I - Praeludium und Fuge 1 in C-Dur BWV 846
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 2 (Copyright)
+tailleEvent = 32
+
+copyright : 
+Copyright © 1996  Bernd Krueger.
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (1)
+tailleEvent = 21
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (1)
+tailleEvent = 27
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (1)
+tailleEvent = 30
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (1)
+tailleEvent = 23
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (1)
+tailleEvent = 20
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (1)
+tailleEvent = 20
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (58)
+tailleEvent = 4
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (59)
+tailleEvent = 2
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (6)
+tailleEvent = 7
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 380
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 100
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 500
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 340
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 840
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 840
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 220
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 380
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 20
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 2040
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (6)
+tailleEvent = 5
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 840
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 720
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 720
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 840
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 720
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 500
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 220
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 1320
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 100
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 100
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 100
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 100
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 80
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 840
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 720
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 720
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 1080
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 840
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 960
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 720
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 1200
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 720
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 1000
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 160
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 160
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 160
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 160
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 160
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 600
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 480
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 120
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 240
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 1080
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (6)
+tailleEvent = 4
+Event ignore
+
+
+Evenement :
+delta time = 15360
+Meta Event
+type inconnu (51)
+tailleEvent = 3
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+Fin de track (2f)
+
+
+Piste trouvee (2/11)!!
+
+Taille piste = 2786
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (21)
+tailleEvent = 1
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 11
+
+Nom de la piste 2 : 
+Piano right
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c0)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (64)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (5b)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (20)
+Event ignore
+
+
+Evenement :
+delta time = 97
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 49
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+MIDI event inconnu (61)
+Event ignore
+
+
+Evenement :
+delta time = 99
+MIDI Event
+
+MIDI event inconnu (62)
+Event ignore
+
+
+Evenement :
+delta time = 52
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 113
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 63
+MIDI Event
+
+MIDI event inconnu (6c)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 51
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 45
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 51
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 43
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 43
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (33)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 45
+
+Evenement :
+delta time = 61
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 52
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 42
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 51
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 43
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 40
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 40
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3e
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 46
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3e
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (49)
+Event ignore
+
+
+Evenement :
+delta time = 46
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (49)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 40
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (49)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3e
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 46
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3e
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 46
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3c
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 39
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 39
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 41
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (28)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3a
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 40
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 41
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (28)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 39
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 40
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (3f)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 39
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 41
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (28)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3b
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 40
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 46
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 46
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 39
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 51
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (77)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (90)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 108
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 46
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 37
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 111
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (2e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 38
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+Piste trouvee (3/11)!!
+
+Taille piste = 1482
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (21)
+tailleEvent = 1
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 6
+
+Nom de la piste 3 : 
+Fuga 1
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c2)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (6e)
+Event ignore
+
+
+Evenement :
+delta time = 67200
+MIDI Event
+
+MIDI event inconnu (5b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (98)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (92)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (6e)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4e)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4f
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 360
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 960
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = b2
+
+!!!!!!!!!!!!!!!!!!!!!!!
+   BUG VELOCITY = b2
+!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (7f)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4c
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 79
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 70
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 51
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 83
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (92)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 79
+MIDI Event
+
+MIDI event inconnu (3f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (4e)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 600
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 180
+MIDI Event
+
+MIDI event inconnu (44)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4c
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 68
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 30
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (44)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4c
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 270
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (94)
+Event ignore
+
+
+Evenement :
+delta time = 127
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 4d
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 79
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 4c
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (6e)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 79
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 51
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 52
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (3d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 79
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 30
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (1e)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 81
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (49)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 79
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 270
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (3d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (92)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 79
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (51)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 46
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (92)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+Note Off (84)
+Channel 4
+Key = 88 | Velocity = 4d
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 81
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 68
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 70
+MIDI Event
+
+Note Off (87)
+Channel 7
+Key = 64 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 300
+MIDI Event
+
+MIDI event inconnu (4d)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 77
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (4f)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 51
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 83
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (54)
+Event ignore
+
+
+Evenement :
+delta time = 84
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+Fin de track (2f)
+
+
+Piste trouvee (4/11)!!
+
+Taille piste = 1380
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (21)
+tailleEvent = 1
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 6
+
+Nom de la piste 4 : 
+Fuga 2
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c3)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (6e)
+Event ignore
+
+
+Evenement :
+delta time = 67200
+MIDI Event
+
+MIDI event inconnu (5b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 7
+
+Evenement :
+delta time = 127
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3e
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 41
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 3e
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 6535
+MIDI Event
+
+MIDI event inconnu (6e)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 39
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (85)
+Channel 5
+Key = 80 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 42
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3c
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 43
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (84)
+Channel 4
+Key = 88 | Velocity = 41
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 3e
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 41
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+Note Off (87)
+Channel 7
+Key = 64 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (9c)
+Event ignore
+
+
+Evenement :
+delta time = 127
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 48
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 6535
+MIDI Event
+
+MIDI event inconnu (6e)
+Event ignore
+
+
+Evenement :
+delta time = 51
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3e
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 42
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 41
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 3e
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (44)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 66
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (44)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 6535
+MIDI Event
+
+MIDI event inconnu (7f)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3c
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 3e
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (40)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (6e)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 36 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 44
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 47
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 65
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4f
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (49)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 49
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 4c
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (76)
+Event ignore
+
+
+Evenement :
+delta time = 71
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (47)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (42)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 88
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 46
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 4a
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (43)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (85)
+Channel 5
+Key = 80 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 40
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 46
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (46)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 45
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (4a)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 43
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (48)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 72
+MIDI Event
+
+MIDI event inconnu (3e)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (46)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 69
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (46)
+Event ignore
+
+
+Evenement :
+delta time = 61
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (41)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 67
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 480
+MIDI Event
+
+MIDI event inconnu (45)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 74
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 64
+MIDI Event
+
+MIDI event inconnu (4c)
+Event ignore
+
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+Piste trouvee (5/11)!!
+
+Taille piste = 1011
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (21)
+tailleEvent = 1
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 6
+
+Nom de la piste 5 : 
+Fuga 4
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c5)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (64)
+Event ignore
+
+
+Evenement :
+delta time = 67200
+MIDI Event
+
+MIDI event inconnu (5b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (c5)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (95)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 32
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 35
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 34
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 32
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 52
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (64)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (1e)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 45
+MIDI Event
+
+MIDI event inconnu (36)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 39
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (36)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (31)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 32
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 34
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 62
+MIDI Event
+
+MIDI event inconnu (3b)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+Note Off (8f)
+Channel 15
+Key = 0 | Velocity = b5
+
+!!!!!!!!!!!!!!!!!!!!!!!
+   BUG VELOCITY = b5
+!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 2b
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 2f
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 2d
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 6791
+MIDI Event
+
+MIDI event inconnu (64)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 32
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 35
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 32
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 35
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 52
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+Note Off (83)
+Channel 3
+Key = 96 | Velocity = 34
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 6791
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 52
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 2b
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 2f
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 2d
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 61
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 92
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 2e
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 2b
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 52
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 111 | Velocity = b5
+
+!!!!!!!!!!!!!!!!!!!!!!!
+   BUG VELOCITY = b5
+!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (64)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 34
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 76
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 34
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (35)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+Note Off (82)
+Channel 2
+Key = 104 | Velocity = 37
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 35
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 34
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (14)
+Event ignore
+
+
+Evenement :
+delta time = 104
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 7
+MIDI Event
+
+MIDI event inconnu (64)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (5a)
+Event ignore
+
+
+Evenement :
+delta time = 50
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+Note Off (88)
+Channel 8
+Key = 56 | Velocity = 32
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 52
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (2d)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (2a)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 92 | Velocity = 28
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (13)
+Event ignore
+
+
+Evenement :
+delta time = 1
+MIDI Event
+
+MIDI event inconnu (95)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 36
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 60
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 55
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (36)
+Event ignore
+
+
+Evenement :
+delta time = 54
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 59
+MIDI Event
+
+Note Off (8f)
+Channel 15
+Key = 0 | Velocity = 37
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (95)
+Event ignore
+
+
+Evenement :
+delta time = 96
+MIDI Event
+
+MIDI event inconnu (39)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+Note Off (81)
+Channel 1
+Key = 112 | Velocity = 3b
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 112
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 58
+MIDI Event
+
+MIDI event inconnu (5a)
+Event ignore
+
+
+Evenement :
+delta time = 57
+MIDI Event
+
+MIDI event inconnu (3c)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (37)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (34)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (38)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (2f)
+Event ignore
+
+
+Evenement :
+delta time = 0
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 48
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 120
+MIDI Event
+
+MIDI event inconnu (32)
+Event ignore
+
+
+Evenement :
+delta time = 56
+MIDI Event
+
+MIDI event inconnu (78)
+Event ignore
+
+
+Evenement :
+delta time = 53
+MIDI Event
+
+MIDI event inconnu (3a)
+Event ignore
+
+
+Evenement :
+delta time = 240
+MIDI Event
+
+MIDI event inconnu (2b)
+Event ignore
+
+
+Evenement :
+delta time = 43
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+
+Evenement :
+delta time = 7680
+MIDI Event
+
+MIDI event inconnu (30)
+Event ignore
+
+
+Evenement :
+delta time = 47
+MIDI Event
+
+MIDI event inconnu (0)
+Event ignore
+
+Piste trouvee (6/11)!!
+
+Taille piste = 44
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (21)
+tailleEvent = 1
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 31
+
+Nom de la piste 6 : 
+Copyright 2004 by Bernd Krüger.
+
+
+Evenement :
+delta time = 0
+Meta Event
+Fin de track (2f)
+
+
+Piste trouvee (7/11)!!
+
+Taille piste = 37
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (21)
+tailleEvent = 1
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 24
+
+Nom de la piste 7 : 
+http://www.piano-midi.de
+
+
+Evenement :
+delta time = 0
+Meta Event
+Fin de track (2f)
+
+
+Piste trouvee (8/11)!!
+
+Taille piste = 31
+
+
+Evenement :
+delta time = 0
+Meta Event
+type inconnu (21)
+tailleEvent = 1
+Event ignore
+
+
+Evenement :
+delta time = 0
+Meta Event
+type 3 (Track Name)
+tailleEvent = 18
+
+Nom de la piste 8 : 
+Edition: 25.9.2004
+
+
+Evenement :
+delta time = 0
+Meta Event
+Fin de track (2f)
+
