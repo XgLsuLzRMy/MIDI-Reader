@@ -29,7 +29,8 @@ int main()
     *   OUVERTURE DU FICHIER
     */
     printf("Ouverture du fichier... ");
-    char* chemin_du_fichier = "fichier_MIDI_test.mid";
+    char* chemin_du_fichier = "NotesRepetees.mid";
+    // char* chemin_du_fichier = "fichier_MIDI_test.mid";
     //char* chemin_du_fichier = "faux_MIDI.mid";
     FILE *fichier = fopen(chemin_du_fichier, "r");
     if (fichier == NULL){
@@ -94,7 +95,7 @@ int main()
     for (int i=0;i<tailleDonneesEntete;i++){
         x = fgetc(fichier);
         printf("%x ", x);
-        // Recuperation du type de fichier MIDI
+        // Recuperation du format de fichier MIDI
         if (i==0){
             format1 =  x;
             if (format1 != 0x0){
@@ -125,6 +126,7 @@ int main()
 
         else{
             printf("\n!!! Pb : taille>6 !!!\n");
+            return 4;
         }
     }
 
@@ -152,17 +154,18 @@ int main()
     *   LECTURE DU CORPS
     */
 
+    char debutDePisteAttendu = 1;
     // vaut 0 si on est dans une piste
     // vaut 1 si on n'est pas dans une piste et qu'on attend de voir 'MTrk'
     // vaut l'indice+1 du tableau MTrk sinon. Par exemple, si on attend le début de piste, on attend le caractere 'M'
     // donc debutDePisteAttendu = 1 car MTrk[1 - 1] = MTrk[0] = 'M'
     // si on trouve ce 'M' dans le fichier, alors debutDePisteAttendu augmente de 1 car on attend maintenant un 'T'
     // et MTrk[2 - 1] = MTrk[1] = 'T'
-    char debutDePisteAttendu = 1;
-    char MTrk[4] = {0x4D, 0x54, 0x72, 0x6B};
+
+    char MTrk[4] = {0x4D, 0x54, 0x72, 0x6B}; // Sert à vérifié qu'on a bien MTrk en début de piste
     int nbPisteTrouvee = 0;
     int taillePiste = -1;
-    int deltaTime = -1;// le delta time de la piste
+    int deltaTime = -1;// le delta time des événements
 
     // des variables pour les meta events
     unsigned char* nomPiste;
@@ -184,7 +187,23 @@ int main()
 
 
     // Lecture de la totalité du fichier caractere par caractere
+    // On fait un premier if pour savoir si on attend le début d'une piste (MTrk) ou si on l'a déjà détécté et qu'on est donc dans une piste
+        // Si on attend le début d'une piste il faut qu'on ait la séquence MTrk entière
+
+        // Sinon on récupère d'abord la taille de la piste dans laquelle on se trouve si on ne l'a pas déjà récupérée (dans ce cas on se trouve + loin dans la piste)
+        // Si la taille a déjà été récupérée, on boucle sur la taille de la piste pour la lire en entier
+            // Pour chaque événement de la piste on récupère son deltaTime si on ne l'a pas déjà (dans ce cas on est à l'intérieur d'un événément)
+            // On analyse ensuite selon le type d'événement et on fait une boucle sur la taille de cet événement pour le lire en entier
+
     while ((x = fgetc(fichier)) != EOF) {
+
+        /*
+        *
+        *
+        * Code pour détecter le début d'une piste pas très compréhensible donc à remanier + tard
+        *
+        *
+        */
         if (debutDePisteAttendu){
             if ((debutDePisteAttendu<4) && (x == MTrk[debutDePisteAttendu-1])){
                 debutDePisteAttendu++;
@@ -195,14 +214,18 @@ int main()
             }else{
                 debutDePisteAttendu = 1;
             }
-        }else{
-            // Dans une piste
+        // Fin si on attend le début d'une piste
+        }else{ // Dans une piste
 
+            // On récupère la taille totale de la piste
+            // Cette taille n'est pas en Variable Length Quantity (VLQ) donc on la récupère telle quelle
+            // Par contre elle est stockée sur 4 octets dont le premier est déjà lu par la boucle while
+            // On lit les 3 autres dans une boucle for
             if(taillePiste == -1){
-                taillePiste = x;
                 // lecture de la taille de la piste
+                taillePiste = x;
                 for(int i=0;i<3;i++){
-                    x = fgetc(fichier);
+                    x = fgetc(fichier); // on récupère le reste des octets de la taille de la piste
                     taillePiste = (taillePiste << 8) + x;
                 }
             }
@@ -211,91 +234,114 @@ int main()
             // On lit la piste
             for(int i = 0;i<taillePiste;i++){
                 x = fgetc(fichier);
-                // On recupere le deltaTime si on ne l'a pas déjà
+                // On recupere le deltaTime si on ne l'a pas déjà (on a déjà le deltaTime si il est différent de -1)
+                // La valeur du deltaTime est réinitialisée à -1 à la fin de chaque événement
                 if (deltaTime == -1){
+                    // Le deltaTime est en Variable Length Quantity (VLQ) donc il faut l'analyser
+                    // Début analyse VLQ (https://en.wikipedia.org/wiki/Variable-length_quantity#Examples)
+                    // VLQ = AB1B2...B7 --> Si A = 0 le nombre est simplement B1B2...B7
+                    //                  --> Si A = 1 Le prochain octet est la suite du VLQ
                     VLQ = x;
-                    MSB = (VLQ >> 7);
-                    deltaTime = (VLQ & 0x7F);
+                    MSB = (VLQ >> 7); // on récupère le Most Significant Bit (MSB)
+                    deltaTime = (VLQ & 0x7F); // on récupère les 7 bits (on enlève le MSB)
                     while (MSB != 0x0){
-                        VLQ = fgetc(fichier);i++;
-                        deltaTime = (deltaTime << 7) + (VLQ & 0x7F);
-                        MSB = (VLQ >> 7);
-                    }
-                    printf("\n\nEvenement :\ndelta time = %d\n", deltaTime);
-                }else{
-                    if(x == 0xFF){ // Un meta event
+                        VLQ = fgetc(fichier);i++; // on récupère le prochain VLQ et on incrémente le compteur puisqu'on avance dans le fichier
+                        deltaTime = (deltaTime << 7) + (VLQ & 0x7F); // on ajoute les 7 bits de la nouvelle valeur au deltaTime
+                        MSB = (VLQ >> 7); // on récupère le MSB pour savoir si le prochain octet est la suite du VLQ
+                    } // Fin analyse VLQ
+                    printf("\n\nNouvel evenement :\ndelta time = %d\n", deltaTime);
+                }else{ // Si on a déjà récupérer le deltaTime lié à l'événement en cours
+                    if(x == 0xFF){ // Un meta event https://www.csie.ntu.edu.tw/~r92092/ref/midi/#meta_event
                         printf("Meta Event\n");
-                        type = fgetc(fichier);i++;
+                        type = fgetc(fichier);i++; // le premier octet d'un meta event est son type
                         switch(type){
-                            case 0x2 :
+                            case 0x2 : // type Copyright
                                 printf("type %x (Copyright)\n", type);
+                                // On récupère la longueur de l'événement
+                                // Cette longueur est en VLQ
+                                // Debut analyse VLQ
                                 VLQ = fgetc(fichier);i++;
-                                MSB = (VLQ >> 7);
-                                tailleEvent = (VLQ & 0x7F);
+                                MSB = (VLQ >> 7); // on récupère le Most Significant Bit (MSB)
+                                tailleEvent = (VLQ & 0x7F); // on récupère les 7 bits (on enlève le MSB)
                                 while (MSB != 0x0){
-                                    VLQ = fgetc(fichier);i++;
-                                    tailleEvent = (tailleEvent << 7) + (VLQ & 0x7F);
-                                    MSB = (VLQ >> 7);
-                                }
+                                    VLQ = fgetc(fichier);i++; // on récupère le prochain VLQ et on incrémente le compteur puisqu'on avance dans le fichier
+                                    tailleEvent = (tailleEvent << 7) + (VLQ & 0x7F); // on ajoute les 7 bits de la nouvelle valeur au deltaTime
+                                    MSB = (VLQ >> 7); // on récupère le MSB pour savoir si le prochain octet est la suite du VLQ
+                                } // Fin analyse VLQ
                                 printf("tailleEvent = %d\n", tailleEvent);
-                                copyright = malloc((tailleEvent+1) * sizeof(char));
-                                copyright[tailleEvent] = '\0';
+
+                                copyright = malloc((tailleEvent+1) * sizeof(char)); // On alloue une chaine de characteres pour récupérer le contenu de l'événement
+                                copyright[tailleEvent] = '\0'; // On place le symbole de fin de chaine de caracteres
+                                // On lit le contenu de l'événement
                                 for(int j=0;j<tailleEvent;j++){
-                                    x = fgetc(fichier);i++;
+                                    x = fgetc(fichier);i++; // puisqu'on lit un caractere, on incrémente le compteur
                                     copyright[j] = x;
                                 }
                                 printf("\ncopyright : \n%s\n", copyright);
-                                break;
-                            case 0x3 :
+                                break; // Fin type "Copyright"
+
+                            case 0x3 : // type nom de piste
                                 printf("type %x (Track Name)\n", type);
+                                // On récupère la longueur de l'événement
+                                // Cette longueur est en VLQ
+                                // Debut analyse VLQ
                                 VLQ = fgetc(fichier);i++;
-                                MSB = (VLQ >> 7);
-                                tailleEvent = (VLQ & 0x7F);
+                                MSB = (VLQ >> 7); // on récupère le Most Significant Bit (MSB)
+                                tailleEvent = (VLQ & 0x7F); // on récupère les 7 bits (on enlève le MSB)
                                 while (MSB != 0x0){
-                                    VLQ = fgetc(fichier);i++;
-                                    tailleEvent = (tailleEvent << 7) + (VLQ & 0x7F);
-                                    MSB = (VLQ >> 7);
-                                }
+                                    VLQ = fgetc(fichier);i++; // on récupère le prochain VLQ et on incrémente le compteur puisqu'on avance dans le fichier
+                                    tailleEvent = (tailleEvent << 7) + (VLQ & 0x7F); // on ajoute les 7 bits de la nouvelle valeur au deltaTime
+                                    MSB = (VLQ >> 7); // on récupère le MSB pour savoir si le prochain octet est la suite du VLQ
+                                }  // Fin analyse VLQ
                                 printf("tailleEvent = %d\n", tailleEvent);
-                                nomPiste = malloc((tailleEvent+1) * sizeof(char));
-                                nomPiste[tailleEvent] = '\0';
+
+                                nomPiste = malloc((tailleEvent+1) * sizeof(char)); // On alloue une chaine de characteres pour récupérer le contenu de l'événement
+                                nomPiste[tailleEvent] = '\0'; // On place le symbole de fin de chaine de caracteres
                                 for(int j=0;j<tailleEvent;j++){
-                                    x = fgetc(fichier);i++;
+                                    x = fgetc(fichier);i++; // puisqu'on lit un caractere, on incrémente le compteur
                                     nomPiste[j] = x;
                                 }
                                 printf("\nNom de la piste %d : \n%s\n", nbPisteTrouvee, nomPiste);
-                                break;
-                            case 0x2F:
+                                break; // Fin type "Nom de piste"
+
+                            case 0x2F: // type "fin de piste"
                                 printf("Fin de track (%x)\n\n",type);
-                                tailleEvent = fgetc(fichier);i++;
+                                tailleEvent = fgetc(fichier);i++; // On ne fait pas le VLQ car il vaut toujours 0 dans le cas d'une fin de psite
+                                // Normalement puisque c'est la fin de la piste on doit retrouver le compteur i égale à la taille théorique de la piste (tailePiste)
                                 if(i!=(taillePiste-1)){
                                     printf("BUG : Fin de piste mais on n\'a pas atteint taillePiste (i=%d et taillePiste = %d)", i, taillePiste);
                                 }
-                                i = taillePiste; // pour sortir de la boucle
-                                break;
-                            default:
+                                i = taillePiste; // pour être sûr de sortir de la boucle
+                                break; // Fin type "Fin de Piste"
+
+                            default: // pour tout autre type qu'on n'a pas analyser
                                 printf("type inconnu (%x)\n",type);
-                                VLQ = fgetc(fichier);i++;
-                                MSB = (VLQ >> 7);
+                                // On récupère la longueur de l'événement
+                                // Cette longueur est en VLQ
+                                // Debut analyse VLQ
+                                VLQ = fgetc(fichier);i++; // on récupère le Most Significant Bit (MSB)
+                                MSB = (VLQ >> 7); // on récupère les 7 bits (on enlève le MSB)
                                 tailleEvent = (VLQ & 0x7F);
                                 while (MSB != 0x0){
-                                    VLQ = fgetc(fichier);i++;
-                                    tailleEvent = (tailleEvent << 7) + (VLQ & 0x7F);
-                                    MSB = (VLQ >> 7);
-                                }
+                                    VLQ = fgetc(fichier);i++; // on récupère le prochain VLQ et on incrémente le compteur puisqu'on avance dans le fichier
+                                    tailleEvent = (tailleEvent << 7) + (VLQ & 0x7F); // on ajoute les 7 bits de la nouvelle valeur au deltaTime
+                                    MSB = (VLQ >> 7); // on récupère le MSB pour savoir si le prochain octet est la suite du VLQ
+                                } // Fin analyse VLQ
+
                                 printf("tailleEvent = %d\n", tailleEvent);
+
+                                // On fait une boucle qui lit les caracteres sans rien en faire juste pour ignorer l'événement
                                 for(int j=0;j<tailleEvent;j++){
                                     x = fgetc(fichier);i++;
                                 }
                                 printf("Event ignore\n");
-                                break;
+                                break; // Fin autre type
                         }
-                    }else{ // Pas un meta event
-                        if((x==0xF0) || x==0xF7){ // SysEvent
+                    }else{ // Si ce n'est pas un meta event (donc soit un SysEvent soit un MIDI event)
+                        if((x==0xF0) || x==0xF7){ // Si c'est un SysEvent
                             printf("\nSysEvent (%x)\n", x);
                             // Attention la taille d'un SysEvent est en Variable Lenght Quantity (VLQ)
-                            // VLQ = AB1B2...B7 --> Si A = 0 le nombre est simplement B1B2...B7
-                            //                  --> Si A = 1 Le prochain octet est la suite du VLQ
+                            // Debut analyse VLQ
                             VLQ = fgetc(fichier);i++;
                             unsigned char MSB = (VLQ >> 7);
                             unsigned int res = (VLQ & 0x7F);
@@ -303,53 +349,77 @@ int main()
                                 VLQ = fgetc(fichier);i++;
                                 res = (res << 7) + (VLQ & 0x7F);
                                 MSB = (VLQ >> 7);
-                            }
+                            } // Fin analyse VLQ
+
+                            // On fait une boucle qui lit les caracteres sans rien en faire juste pour ignorer l'événement
                             for(int j=0;j<res;j++){
                                 x = fgetc(fichier);i++;
                             }
                             printf("Event ignore\n");
-                        }else{ // MIDI Event
+
+                        }else{ // C'est forcément un MIDI Event
                             printf("MIDI Event\n");
-                            // on decale de 4 pour ne recuperer que les 4 premiers bits (0x42>>4 = 0x4)
+                            // on decale de 4 pour ne recuperer que les 4 premiers bits (0x42>>4 = 0x4) car il s'agit du type de midi évément
+                            // Par exemple si on a x = 0x81 alors (x>>4)=0x8 --> événement "Note OFF" sur la channel (x & 0x0F)=0x1
                             switch(x>>4){
-                            case 0x8:
-                                printf("\nNote Off (%x)\n",x);
-                                channel = (x & 0x0F);
-                                printf("Channel %d\n", channel);
-                                key = fgetc(fichier);i++;
-                                printf("Key = %d", key);
-                                if (!(key>=0x0 && key<=0x7F)){
-                                    printf("\n\n!!!!!!!!!!!!!!!!!!!!!\n     BUG KEY = %x\n!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
-                                }
-                                velocity = fgetc(fichier);i++;
-                                printf(" | Velocity = %x", velocity);
-                                if (!(velocity>=0x0 && velocity<=0x7F)){
-                                    printf("\n\n!!!!!!!!!!!!!!!!!!!!!!!\n   BUG VELOCITY = %x\n!!!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
-                                }
-                                channel = 0;
-                                key = 0;
-                                break;
-                            default:
-                                printf("\nMIDI event inconnu (%x)\n",x);
-                                for(int j=0;j<3;j++){
-                                    x = fgetc(fichier);i++;
-                                }
-                                printf("Event ignore\n");
-                                break;
-                            }
-                        }
-                    }
-                    // Fin de l'evenement on reinitialise les variables
+                                case 0x8: // type Note OFF
+                                    printf("\nNote Off (%x)\n",x);
+
+                                    channel = (x & 0x0F); // La channel est donnée par les 4 bits de droite (0x81 --> channel 1)
+                                    printf("Channel %d\n", channel);
+
+                                    key = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la touche du piano appuyée
+                                    printf("Key = %d", key);
+                                    // Normalement key<=88=0x58 mais key peut dans la norme MIDI aller jusqu'à 127=0x7F
+                                    // On vérifie donc que key ne dépasse pas cette valeur théorique sinon il y a un problème
+                                    if (!(key>=0x0 && key<=0x7F)){
+                                        printf("\n\n!!!!!!!!!!!!!!!!!!!!!\n     BUG KEY = %x\n!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
+                                    }
+
+                                    velocity = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la vélocité c'est à dire le volume de la note
+                                    printf(" | Velocity = %x", velocity);
+                                    // De même que pour la key, la velocité doit être entre 0 et 127
+                                    if (!(velocity>=0x0 && velocity<=0x7F)){
+                                        printf("\n\n!!!!!!!!!!!!!!!!!!!!!!!\n   BUG VELOCITY = %x\n!!!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
+                                    }
+
+                                    /*
+                                    *
+                                    *
+                                    * ICI IL FAUT METTRE LA TOUCHE ET SON VOLUME DANS UN TABLEAU
+                                    *
+                                    *
+                                    */
+
+                                    // On réinitialise les variables pour la prochaine lecture
+                                    channel = 0;
+                                    key = 0;
+                                    break; // Fin type "Note OFF"
+
+                                default: // Si on ne connait pas ce type d'événement MIDI
+                                    printf("\nMIDI event inconnu (%x)\n",x);
+                                    for(int j=0;j<3;j++){
+                                        x = fgetc(fichier);i++;
+                                    }
+                                    printf("Event ignore\n");
+                                    break; // Fin type "autre evenement MIDI"
+
+                            } // Fin du switch sur le type de MIDI event
+                        } // Fin MIDI event
+                    }// Fin de l'evenement
+
+                    //on reinitialise les variables
                     deltaTime = -1;
                     tailleEvent = 0;
                     type = -1;
-                }
-            }
+                } // Fin du else si on a déjà récupérer le delta time
+            } // Fin de la boucle for qui lit la piste
+
             // Fin de la piste on réinitialise les variables
             taillePiste = -1;
             debutDePisteAttendu = 1;
-        }
-    }
+        } // Fin du else si on est dans une piste
+    } // Fin de la boucle while globale sur le fichier
 
 
     /*
