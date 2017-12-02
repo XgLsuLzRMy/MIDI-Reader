@@ -358,7 +358,7 @@ int main()
                             printf("Event ignore\n");
 
                         }else{ // C'est forcément un MIDI Event
-                            printf("MIDI Event\n");
+                            printf("MIDI Event");
                             // on decale de 4 pour ne recuperer que les 4 premiers bits (0x42>>4 = 0x4) car il s'agit du type de midi évément
                             // Par exemple si on a x = 0x81 alors (x>>4)=0x8 --> événement "Note OFF" sur la channel (x & 0x0F)=0x1
                             switch(x>>4){
@@ -395,6 +395,40 @@ int main()
                                     channel = 0;
                                     key = 0;
                                     break; // Fin type "Note OFF"
+
+                                case 0x9: // type Note ON
+                                    printf("\nNote On (%x)\n",x);
+
+                                    channel = (x & 0x0F); // La channel est donnée par les 4 bits de droite (0x81 --> channel 1)
+                                    printf("Channel %d\n", channel);
+
+                                    key = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la touche du piano appuyée
+                                    printf("Key = %d", key);
+                                    // Normalement key<=88=0x58 mais key peut dans la norme MIDI aller jusqu'à 127=0x7F
+                                    // On vérifie donc que key ne dépasse pas cette valeur théorique sinon il y a un problème
+                                    if (!(key>=0x0 && key<=0x7F)){
+                                        printf("\n\n!!!!!!!!!!!!!!!!!!!!!\n     BUG KEY = %x\n!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
+                                    }
+
+                                    velocity = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la vélocité c'est à dire le volume de la note
+                                    printf(" | Velocity = %x", velocity);
+                                    // De même que pour la key, la velocité doit être entre 0 et 127
+                                    if (!(velocity>=0x0 && velocity<=0x7F)){
+                                        printf("\n\n!!!!!!!!!!!!!!!!!!!!!!!\n   BUG VELOCITY = %x\n!!!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
+                                    }
+
+                                    /*
+                                    *
+                                    *
+                                    * ICI IL FAUT METTRE LA TOUCHE ET SON VOLUME DANS UN TABLEAU
+                                    *
+                                    *
+                                    */
+
+                                    // On réinitialise les variables pour la prochaine lecture
+                                    channel = 0;
+                                    key = 0;
+                                    break; // Fin type "Note ON"
 
                                 default: // Si on ne connait pas ce type d'événement MIDI
                                     printf("\nMIDI event inconnu (%x)\n",x);
