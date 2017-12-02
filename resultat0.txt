@@ -1,0 +1,10 @@
+Note On 	Key: 60	Velocity: 71	Delta-time: 0
+Note Off	Key: 60	Velocity: 71	Delta-time: 12
+Note On 	Key: 60	Velocity: 67	Delta-time: 159
+Note Off	Key: 60	Velocity: 67	Delta-time: 17
+Note On 	Key: 60	Velocity: 66	Delta-time: 166
+Note Off	Key: 60	Velocity: 66	Delta-time: 14
+Note On 	Key: 60	Velocity: 66	Delta-time: 178
+Note Off	Key: 60	Velocity: 66	Delta-time: 15
+Note On 	Key: 60	Velocity: 71	Delta-time: 188
+Note Off	Key: 60	Velocity: 71	Delta-time: 14

@@ -25,6 +25,7 @@ unsigned int convertTabToHex(char* t, int taille){
 
 int main()
 {
+
     /*
     *   OUVERTURE DU FICHIER
     */
@@ -39,6 +40,12 @@ int main()
     }
     printf("succes\n");
 
+    printf("Ouverture du fichier de resultat0... ");
+
+    int nbFichiers = 2; // chaque fichier stocke les MIDI event d'une channel spécifique
+    FILE** fichierRes = malloc(nbFichiers*sizeof(FILE*));
+    fichierRes[0] = fopen("resultat0.txt", "w");
+    fichierRes[1] = fopen("resultat1.txt", "w");
     /*
     *   LECTURE DE L'ENTETE
     */
@@ -111,7 +118,7 @@ int main()
         }
         // Recuperation du nombre de pistes
         else if(i==2){
-            nbPistes = nbPistes + ((x)*16);
+            nbPistes = nbPistes + (x<<4);
         }else if(i==3){
             nbPistes = nbPistes + (x);
         }
@@ -140,7 +147,7 @@ int main()
     if (MSBdivision){
         printf("\nDivision dans le cas MSB=1\n");
         // On place le 15eme bit (MSBdivision) à 0
-        unsigned int mask = 0x10F447; // 0111 1111 --> le MSB est a 0 dans le mask donc il sera mis à 0 dans le nombre final
+        unsigned int mask = 0x10F447; // = 0111 1111 --> le MSB est a 0 dans le mask donc il sera mis à 0 dans le nombre final
         division1 = division1 & mask;
         // division1 est le nombre d'images par secondes
         // division2 est le nombre de delta-time par image
@@ -358,18 +365,18 @@ int main()
                             printf("Event ignore\n");
 
                         }else{ // C'est forcément un MIDI Event
-                            printf("MIDI Event");
+                            printf("MIDI Event\t");
                             // on decale de 4 pour ne recuperer que les 4 premiers bits (0x42>>4 = 0x4) car il s'agit du type de midi évément
                             // Par exemple si on a x = 0x81 alors (x>>4)=0x8 --> événement "Note OFF" sur la channel (x & 0x0F)=0x1
                             switch(x>>4){
                                 case 0x8: // type Note OFF
-                                    printf("\nNote Off (%x)\n",x);
+                                    printf("Note Off (%x)\n",x);
 
                                     channel = (x & 0x0F); // La channel est donnée par les 4 bits de droite (0x81 --> channel 1)
-                                    printf("Channel %d\n", channel);
+                                    printf("Channel %d", channel);
 
                                     key = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la touche du piano appuyée
-                                    printf("Key = %d", key);
+                                    printf("\tKey = %d", key);
                                     // Normalement key<=88=0x58 mais key peut dans la norme MIDI aller jusqu'à 127=0x7F
                                     // On vérifie donc que key ne dépasse pas cette valeur théorique sinon il y a un problème
                                     if (!(key>=0x0 && key<=0x7F)){
@@ -377,19 +384,20 @@ int main()
                                     }
 
                                     velocity = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la vélocité c'est à dire le volume de la note
-                                    printf(" | Velocity = %x", velocity);
+                                    printf("\tVelocity = %x\n", velocity);
                                     // De même que pour la key, la velocité doit être entre 0 et 127
                                     if (!(velocity>=0x0 && velocity<=0x7F)){
                                         printf("\n\n!!!!!!!!!!!!!!!!!!!!!!!\n   BUG VELOCITY = %x\n!!!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
                                     }
 
-                                    /*
-                                    *
-                                    *
-                                    * ICI IL FAUT METTRE LA TOUCHE ET SON VOLUME DANS UN TABLEAU
-                                    *
-                                    *
-                                    */
+
+                                    // On stocke dans le fichier
+                                    if (channel<nbFichiers){
+                                        printf("On ecrit l\'evenement dans le fichier\n");
+                                        fprintf(fichierRes[channel], "Note Off\tKey: %d\tVelocity: %d\tDelta-time: %d\n", key, velocity, deltaTime);
+                                    }
+
+
 
                                     // On réinitialise les variables pour la prochaine lecture
                                     channel = 0;
@@ -397,13 +405,13 @@ int main()
                                     break; // Fin type "Note OFF"
 
                                 case 0x9: // type Note ON
-                                    printf("\nNote On (%x)\n",x);
+                                    printf("Note On (%x)\n",x);
 
                                     channel = (x & 0x0F); // La channel est donnée par les 4 bits de droite (0x81 --> channel 1)
-                                    printf("Channel %d\n", channel);
+                                    printf("Channel %d", channel);
 
                                     key = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la touche du piano appuyée
-                                    printf("Key = %d", key);
+                                    printf("\tKey = %d", key);
                                     // Normalement key<=88=0x58 mais key peut dans la norme MIDI aller jusqu'à 127=0x7F
                                     // On vérifie donc que key ne dépasse pas cette valeur théorique sinon il y a un problème
                                     if (!(key>=0x0 && key<=0x7F)){
@@ -411,19 +419,17 @@ int main()
                                     }
 
                                     velocity = fgetc(fichier);i++; // On lit le caractere suivant qui correspond à la vélocité c'est à dire le volume de la note
-                                    printf(" | Velocity = %x", velocity);
+                                    printf("\tVelocity = %x\n", velocity);
                                     // De même que pour la key, la velocité doit être entre 0 et 127
                                     if (!(velocity>=0x0 && velocity<=0x7F)){
                                         printf("\n\n!!!!!!!!!!!!!!!!!!!!!!!\n   BUG VELOCITY = %x\n!!!!!!!!!!!!!!!!!!!!!!!\n\n", velocity);
                                     }
 
-                                    /*
-                                    *
-                                    *
-                                    * ICI IL FAUT METTRE LA TOUCHE ET SON VOLUME DANS UN TABLEAU
-                                    *
-                                    *
-                                    */
+                                    // On stocke dans le fichier
+                                    if (channel<nbFichiers){
+                                        printf("On ecrit l\'evenement dans le fichier\n");
+                                        fprintf(fichierRes[channel], "Note On \tKey: %d\tVelocity: %d\tDelta-time: %d\n", key, velocity, deltaTime);
+                                    }
 
                                     // On réinitialise les variables pour la prochaine lecture
                                     channel = 0;
@@ -461,5 +467,8 @@ int main()
     */
 
     fclose(fichier);
+    for (int i=0;i<nbFichiers;i++){
+        fclose(fichierRes[i]);
+    }
     return 0;
 }
