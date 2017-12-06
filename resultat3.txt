@@ -1,0 +1,15 @@
+Note Off	Key: 96	Velocity: 71	Delta-time: 57
+Note Off	Key: 96	Velocity: 71	Delta-time: 58
+Note Off	Key: 96	Velocity: 72	Delta-time: 60
+Note Off	Key: 96	Velocity: 72	Delta-time: 60
+Note Off	Key: 96	Velocity: 74	Delta-time: 72
+Note Off	Key: 96	Velocity: 67	Delta-time: 0
+Note Off	Key: 96	Velocity: 67	Delta-time: 60
+Note Off	Key: 96	Velocity: 62	Delta-time: 57
+Note Off	Key: 36	Velocity: 67	Delta-time: 60
+Note Off	Key: 96	Velocity: 64	Delta-time: 57
+Note Off	Key: 96	Velocity: 67	Delta-time: 56
+Note Off	Key: 96	Velocity: 52	Delta-time: 56
+Note Off	Key: 96	Velocity: 53	Delta-time: 60
+Note Off	Key: 96	Velocity: 50	Delta-time: 57
+Note Off	Key: 96	Velocity: 52	Delta-time: 58

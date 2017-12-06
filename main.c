@@ -30,8 +30,8 @@ int main()
     *   OUVERTURE DU FICHIER
     */
     printf("Ouverture du fichier... ");
-    char* chemin_du_fichier = "NotesRepetees.mid";
-    // char* chemin_du_fichier = "fichier_MIDI_test.mid";
+    //char* chemin_du_fichier = "NotesRepetees.mid";
+    char* chemin_du_fichier = "fichier_MIDI_test.mid";
     //char* chemin_du_fichier = "faux_MIDI.mid";
     FILE *fichier = fopen(chemin_du_fichier, "r");
     if (fichier == NULL){
@@ -42,10 +42,12 @@ int main()
 
     printf("Ouverture du fichier de resultat0... ");
 
-    int nbFichiers = 2; // chaque fichier stocke les MIDI event d'une channel spécifique
+    int nbFichiers = 4; // chaque fichier stocke les MIDI event d'une channel spécifique
     FILE** fichierRes = malloc(nbFichiers*sizeof(FILE*));
     fichierRes[0] = fopen("resultat0.txt", "w");
     fichierRes[1] = fopen("resultat1.txt", "w");
+    fichierRes[2] = fopen("resultat2.txt", "w");
+    fichierRes[3] = fopen("resultat3.txt", "w");
     /*
     *   LECTURE DE L'ENTETE
     */
