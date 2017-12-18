@@ -1,117 +1,117 @@
-Note Off	Key: 112	Velocity: 69	Delta-time: 0
-Note Off	Key: 112	Velocity: 67	Delta-time: 0
-Note Off	Key: 112	Velocity: 67	Delta-time: 0
-Note Off	Key: 112	Velocity: 69	Delta-time: 0
-Note Off	Key: 112	Velocity: 66	Delta-time: 0
-Note Off	Key: 112	Velocity: 67	Delta-time: 0
-Note Off	Key: 112	Velocity: 64	Delta-time: 0
-Note Off	Key: 112	Velocity: 64	Delta-time: 0
-Note Off	Key: 112	Velocity: 62	Delta-time: 0
-Note Off	Key: 112	Velocity: 62	Delta-time: 0
-Note Off	Key: 112	Velocity: 64	Delta-time: 0
-Note Off	Key: 112	Velocity: 62	Delta-time: 0
-Note Off	Key: 112	Velocity: 62	Delta-time: 0
-Note Off	Key: 112	Velocity: 60	Delta-time: 0
-Note Off	Key: 112	Velocity: 57	Delta-time: 0
-Note Off	Key: 112	Velocity: 57	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 58	Delta-time: 0
-Note Off	Key: 112	Velocity: 57	Delta-time: 0
-Note Off	Key: 112	Velocity: 57	Delta-time: 0
-Note Off	Key: 112	Velocity: 59	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 57	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 55	Delta-time: 0
-Note Off	Key: 112	Velocity: 69	Delta-time: 54
-Note Off	Key: 92	Velocity: 71	Delta-time: 57
-Note Off	Key: 92	Velocity: 69	Delta-time: 56
-Note Off	Key: 112	Velocity: 79	Delta-time: 60
-Note Off	Key: 92	Velocity: 72	Delta-time: 60
-Note Off	Key: 112	Velocity: 178	Delta-time: 0
-Note Off	Key: 112	Velocity: 72	Delta-time: 60
-Note Off	Key: 112	Velocity: 76	Delta-time: 64
-Note Off	Key: 92	Velocity: 74	Delta-time: 64
-Note Off	Key: 112	Velocity: 76	Delta-time: 60
-Note Off	Key: 112	Velocity: 71	Delta-time: 58
-Note Off	Key: 92	Velocity: 72	Delta-time: 58
-Note Off	Key: 112	Velocity: 76	Delta-time: 62
-Note Off	Key: 112	Velocity: 67	Delta-time: 53
-Note Off	Key: 112	Velocity: 71	Delta-time: 55
-Note Off	Key: 112	Velocity: 74	Delta-time: 56
-Note Off	Key: 92	Velocity: 76	Delta-time: 60
-Note Off	Key: 92	Velocity: 74	Delta-time: 60
-Note Off	Key: 112	Velocity: 81	Delta-time: 67
-Note Off	Key: 112	Velocity: 82	Delta-time: 67
-Note Off	Key: 112	Velocity: 67	Delta-time: 51
-Note Off	Key: 112	Velocity: 71	Delta-time: 55
-Note Off	Key: 92	Velocity: 69	Delta-time: 57
-Note Off	Key: 112	Velocity: 74	Delta-time: 57
-Note Off	Key: 112	Velocity: 70	Delta-time: 67
-Note Off	Key: 112	Velocity: 74	Delta-time: 67
-Note Off	Key: 112	Velocity: 7	Delta-time: 0
-Note Off	Key: 112	Velocity: 62	Delta-time: 54
-Note Off	Key: 92	Velocity: 64	Delta-time: 60
-Note Off	Key: 92	Velocity: 62	Delta-time: 56
-Note Off	Key: 112	Velocity: 57	Delta-time: 56
-Note Off	Key: 92	Velocity: 66	Delta-time: 57
-Note Off	Key: 112	Velocity: 67	Delta-time: 59
-Note Off	Key: 112	Velocity: 64	Delta-time: 57
-Note Off	Key: 112	Velocity: 60	Delta-time: 55
-Note Off	Key: 112	Velocity: 65	Delta-time: 60
-Note Off	Key: 112	Velocity: 67	Delta-time: 51
-Note Off	Key: 112	Velocity: 71	Delta-time: 56
-Note Off	Key: 92	Velocity: 69	Delta-time: 56
-Note Off	Key: 112	Velocity: 62	Delta-time: 51
-Note Off	Key: 112	Velocity: 66	Delta-time: 54
-Note Off	Key: 92	Velocity: 64	Delta-time: 57
-Note Off	Key: 112	Velocity: 65	Delta-time: 57
-Note Off	Key: 112	Velocity: 60	Delta-time: 53
-Note Off	Key: 112	Velocity: 64	Delta-time: 55
-Note Off	Key: 92	Velocity: 62	Delta-time: 56
-Note Off	Key: 112	Velocity: 64	Delta-time: 56
-Note Off	Key: 112	Velocity: 68	Delta-time: 58
-Note Off	Key: 112	Velocity: 67	Delta-time: 57
-Note Off	Key: 112	Velocity: 71	Delta-time: 57
-Note Off	Key: 92	Velocity: 69	Delta-time: 58
-Note Off	Key: 112	Velocity: 79	Delta-time: 65
-Note Off	Key: 112	Velocity: 74	Delta-time: 58
-Note Off	Key: 112	Velocity: 73	Delta-time: 56
-Note Off	Key: 112	Velocity: 76	Delta-time: 56
-Note Off	Key: 112	Velocity: 67	Delta-time: 55
-Note Off	Key: 112	Velocity: 70	Delta-time: 56
-Note Off	Key: 92	Velocity: 74	Delta-time: 60
-Note Off	Key: 112	Velocity: 64	Delta-time: 57
-Note Off	Key: 92	Velocity: 64	Delta-time: 56
-Note Off	Key: 112	Velocity: 67	Delta-time: 57
-Note Off	Key: 92	Velocity: 69	Delta-time: 57
-Note Off	Key: 92	Velocity: 67	Delta-time: 55
-Note Off	Key: 112	Velocity: 50	Delta-time: 53
-Note Off	Key: 92	Velocity: 52	Delta-time: 57
-Note Off	Key: 92	Velocity: 50	Delta-time: 55
-Note Off	Key: 112	Velocity: 57	Delta-time: 60
-Note Off	Key: 112	Velocity: 50	Delta-time: 57
-Note Off	Key: 112	Velocity: 43	Delta-time: 54
-Note Off	Key: 112	Velocity: 47	Delta-time: 55
-Note Off	Key: 92	Velocity: 45	Delta-time: 55
-Note Off	Key: 112	Velocity: 50	Delta-time: 58
-Note Off	Key: 112	Velocity: 53	Delta-time: 60
-Note Off	Key: 112	Velocity: 43	Delta-time: 52
-Note Off	Key: 112	Velocity: 47	Delta-time: 55
-Note Off	Key: 92	Velocity: 45	Delta-time: 56
-Note Off	Key: 112	Velocity: 46	Delta-time: 57
-Note Off	Key: 112	Velocity: 43	Delta-time: 56
-Note Off	Key: 111	Velocity: 181	Delta-time: 60
-Note Off	Key: 112	Velocity: 52	Delta-time: 57
-Note Off	Key: 112	Velocity: 52	Delta-time: 56
-Note Off	Key: 92	Velocity: 53	Delta-time: 57
-Note Off	Key: 92	Velocity: 52	Delta-time: 55
-Note Off	Key: 92	Velocity: 40	Delta-time: 54
-Note Off	Key: 112	Velocity: 54	Delta-time: 54
-Note Off	Key: 112	Velocity: 59	Delta-time: 57
+0,8,112,69
+0,8,112,67
+0,8,112,67
+0,8,112,69
+0,8,112,66
+0,8,112,67
+0,8,112,64
+0,8,112,64
+0,8,112,62
+0,8,112,62
+0,8,112,64
+0,8,112,62
+0,8,112,62
+0,8,112,60
+0,8,112,57
+0,8,112,57
+0,8,112,55
+0,8,112,55
+0,8,112,58
+0,8,112,57
+0,8,112,57
+0,8,112,59
+0,8,112,55
+0,8,112,55
+0,8,112,55
+0,8,112,55
+0,8,112,57
+0,8,112,55
+0,8,112,55
+0,8,112,55
+0,8,112,55
+54,8,112,69
+57,8,92,71
+56,8,92,69
+60,8,112,79
+60,8,92,72
+0,8,112,178
+60,8,112,72
+64,8,112,76
+64,8,92,74
+60,8,112,76
+58,8,112,71
+58,8,92,72
+62,8,112,76
+53,8,112,67
+55,8,112,71
+56,8,112,74
+60,8,92,76
+60,8,92,74
+67,8,112,81
+67,8,112,82
+51,8,112,67
+55,8,112,71
+57,8,92,69
+57,8,112,74
+67,8,112,70
+67,8,112,74
+0,8,112,7
+54,8,112,62
+60,8,92,64
+56,8,92,62
+56,8,112,57
+57,8,92,66
+59,8,112,67
+57,8,112,64
+55,8,112,60
+60,8,112,65
+51,8,112,67
+56,8,112,71
+56,8,92,69
+51,8,112,62
+54,8,112,66
+57,8,92,64
+57,8,112,65
+53,8,112,60
+55,8,112,64
+56,8,92,62
+56,8,112,64
+58,8,112,68
+57,8,112,67
+57,8,112,71
+58,8,92,69
+65,8,112,79
+58,8,112,74
+56,8,112,73
+56,8,112,76
+55,8,112,67
+56,8,112,70
+60,8,92,74
+57,8,112,64
+56,8,92,64
+57,8,112,67
+57,8,92,69
+55,8,92,67
+53,8,112,50
+57,8,92,52
+55,8,92,50
+60,8,112,57
+57,8,112,50
+54,8,112,43
+55,8,112,47
+55,8,92,45
+58,8,112,50
+60,8,112,53
+52,8,112,43
+55,8,112,47
+56,8,92,45
+57,8,112,46
+56,8,112,43
+60,8,111,181
+57,8,112,52
+56,8,112,52
+57,8,92,53
+55,8,92,52
+54,8,92,40
+54,8,112,54
+57,8,112,59

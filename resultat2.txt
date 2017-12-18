@@ -1,12 +1,12 @@
-Note Off	Key: 104	Velocity: 72	Delta-time: 60
-Note Off	Key: 104	Velocity: 81	Delta-time: 70
-Note On 	Key: 76	Velocity: 60	Delta-time: 0
-Note Off	Key: 104	Velocity: 77	Delta-time: 64
-Note On 	Key: 96	Velocity: 67	Delta-time: 0
-Note On 	Key: 72	Velocity: 67	Delta-time: 0
-Note Off	Key: 104	Velocity: 81	Delta-time: 65
-Note Off	Key: 104	Velocity: 65	Delta-time: 60
-Note Off	Key: 104	Velocity: 62	Delta-time: 54
-Note Off	Key: 104	Velocity: 70	Delta-time: 60
-Note Off	Key: 104	Velocity: 53	Delta-time: 60
-Note Off	Key: 104	Velocity: 55	Delta-time: 60
+60,8,104,72
+70,8,104,81
+0,9,76,60
+64,8,104,77
+0,9,96,67
+0,9,72,67
+65,8,104,81
+60,8,104,65
+54,8,104,62
+60,8,104,70
+60,8,104,53
+60,8,104,55

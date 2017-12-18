@@ -1,31 +1,31 @@
-Note On 	Key: 67	Velocity: 56	Delta-time: 113
-Note On 	Key: 77	Velocity: 0	Delta-time: 1
-Note On 	Key: 77	Velocity: 0	Delta-time: 1
-Note On 	Key: 76	Velocity: 0	Delta-time: 1
-Note On 	Key: 81	Velocity: 0	Delta-time: 1
-Note On 	Key: 74	Velocity: 0	Delta-time: 1
-Note On 	Key: 79	Velocity: 0	Delta-time: 1
-Note On 	Key: 72	Velocity: 0	Delta-time: 1
-Note On 	Key: 72	Velocity: 0	Delta-time: 1
-Note On 	Key: 72	Velocity: 0	Delta-time: 1
-Note On 	Key: 71	Velocity: 0	Delta-time: 1
-Note On 	Key: 73	Velocity: 0	Delta-time: 1
-Note On 	Key: 74	Velocity: 0	Delta-time: 1
-Note On 	Key: 71	Velocity: 0	Delta-time: 1
-Note On 	Key: 72	Velocity: 0	Delta-time: 1
-Note On 	Key: 65	Velocity: 0	Delta-time: 1
-Note On 	Key: 65	Velocity: 0	Delta-time: 1
-Note On 	Key: 65	Velocity: 0	Delta-time: 1
-Note On 	Key: 64	Velocity: 0	Delta-time: 1
-Note On 	Key: 64	Velocity: 0	Delta-time: 1
-Note On 	Key: 64	Velocity: 0	Delta-time: 1
-Note On 	Key: 63	Velocity: 0	Delta-time: 1
-Note On 	Key: 62	Velocity: 0	Delta-time: 1
-Note On 	Key: 62	Velocity: 0	Delta-time: 1
-Note On 	Key: 64	Velocity: 0	Delta-time: 1
-Note On 	Key: 65	Velocity: 0	Delta-time: 1
-Note On 	Key: 65	Velocity: 0	Delta-time: 1
-Note On 	Key: 66	Velocity: 0	Delta-time: 1
-Note On 	Key: 67	Velocity: 0	Delta-time: 1
-Note On 	Key: 65	Velocity: 0	Delta-time: 1
-Note On 	Key: 65	Velocity: 0	Delta-time: 1
+113,9,67,56
+1,9,77,0
+1,9,77,0
+1,9,76,0
+1,9,81,0
+1,9,74,0
+1,9,79,0
+1,9,72,0
+1,9,72,0
+1,9,72,0
+1,9,71,0
+1,9,73,0
+1,9,74,0
+1,9,71,0
+1,9,72,0
+1,9,65,0
+1,9,65,0
+1,9,65,0
+1,9,64,0
+1,9,64,0
+1,9,64,0
+1,9,63,0
+1,9,62,0
+1,9,62,0
+1,9,64,0
+1,9,65,0
+1,9,65,0
+1,9,66,0
+1,9,67,0
+1,9,65,0
+1,9,65,0

@@ -11,21 +11,24 @@
 
 
 
+/*
+void ecrireDansFichier(FILE* fichier, unsigned char eventType, unsigned char key, unsigned char velocity, unsigned char deltaTime){
+    fprintf(fichier, "channel: %x \tKey: %d\tVelocity: %d\tDelta-time: %d\n", eventType, key, velocity, deltaTime);
+}
+*/
 
-unsigned int convertTabToHex(char* t, int taille){
-// Convertit un tableau t = {h1, h2, h3, ... , h(taille-1)}
-// En un nombre hexa res = h1h2h3...h(taille-1)
-// ex : t = {E0 , F2} taille = 2 --> convertTabhex(t, taille) = E0F2
-    unsigned int res = t[taille-1];
-    for (int i=2;i<=taille;i++){
-        res = (t[taille-i]<<(8*(i-1))) + res;
-    }
-    return res;
+/*
+void ecrireDansFichier(FILE* fichier, unsigned int eventType, unsigned char key, unsigned char velocity, unsigned char deltaTime){
+    fprintf(fichier,"%x,%d,%d,%d\n", eventType, key, velocity, deltaTime);
+}
+*/
+
+void ecrireDansFichier(FILE* fichier, unsigned int eventType, unsigned char key, unsigned char velocity, unsigned char deltaTime){
+    fprintf(fichier,"%d,%x,%d,%d\n", deltaTime, eventType, key, velocity);
 }
 
 int main()
 {
-
     /*
     *   OUVERTURE DU FICHIER
     */
@@ -396,7 +399,8 @@ int main()
                                     // On stocke dans le fichier
                                     if (channel<nbFichiers){
                                         printf("On ecrit l\'evenement dans le fichier\n");
-                                        fprintf(fichierRes[channel], "Note Off\tKey: %d\tVelocity: %d\tDelta-time: %d\n", key, velocity, deltaTime);
+                                        //fprintf(fichierRes[channel], "Note Off\tKey: %d\tVelocity: %d\tDelta-time: %d\n", key, velocity, deltaTime);
+                                        ecrireDansFichier(fichierRes[channel], 0x8, key, velocity, deltaTime);
                                     }
 
 
@@ -430,7 +434,8 @@ int main()
                                     // On stocke dans le fichier
                                     if (channel<nbFichiers){
                                         printf("On ecrit l\'evenement dans le fichier\n");
-                                        fprintf(fichierRes[channel], "Note On \tKey: %d\tVelocity: %d\tDelta-time: %d\n", key, velocity, deltaTime);
+                                        ecrireDansFichier(fichierRes[channel], 0x9, key, velocity, deltaTime);
+
                                     }
 
                                     // On réinitialise les variables pour la prochaine lecture
